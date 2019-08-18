@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="90dp"
+        android:layout_height="54dp"
+        android:text="Login"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="90dp"
+        android:layout_height="54dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> -->
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_x="152dp"
+        android:layout_y="197dp"
+         />
+
+    <Button
+        android:id="@+id/main_login"
+        android:layout_width="90dp"
+        android:layout_height="54dp"
+        android:text="Login"
+        android:layout_x="92dp"
+        android:layout_y="297dp" />
+
+    <Button
+        android:id="@+id/main_register"
+        android:layout_width="90dp"
+        android:layout_height="54dp"
+        android:text="Register"
+        android:layout_x="232dp"
+        android:layout_y="297dp" />
+
+</AbsoluteLayout>
+
+

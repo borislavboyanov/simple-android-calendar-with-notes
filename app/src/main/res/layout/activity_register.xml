@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="89dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"></LinearLayout>
+    <LinearLayout
+        android:layout_width="227dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@color/white">
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+                <EditText
+                    android:id="@+id/register_email"
+                    android:layout_width="181dp"
+                    android:layout_height="40dp"
+                    android:focusedByDefault="true"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email address"/>
+
+                <EditText
+                    android:id="@+id/register_password"
+                    android:layout_width="181dp"
+                    android:layout_height="40dp"
+                    android:inputType="textPassword"
+                    tools:layout_editor_absoluteX="113dp"
+                    tools:layout_editor_absoluteY="196dp"
+                    android:hint="password"/>
+
+                <EditText
+                    android:id="@+id/confirm"
+                    android:layout_width="181dp"
+                    android:layout_height="40dp"
+                    android:inputType="textPassword"
+                    tools:layout_editor_absoluteX="113dp"
+                    tools:layout_editor_absoluteY="196dp"
+                    android:hint="Confirm password"/>
+
+                <Button
+                    android:id="@+id/toLogin"
+                    android:layout_width="217dp"
+                    android:layout_height="51dp"
+                    android:text="Login"
+                    tools:layout_editor_absoluteX="115dp"
+                    tools:layout_editor_absoluteY="530dp" />
+
+                <Button
+                    android:id="@+id/Register"
+                    android:layout_width="217dp"
+                    android:layout_height="51dp"
+                    android:text="register"
+                    tools:layout_editor_absoluteX="113dp"
+                    tools:layout_editor_absoluteY="382dp" />
+            </com.google.android.material.appbar.AppBarLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="192dp"></LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
